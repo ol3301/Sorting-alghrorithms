@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/good/Projects/c++/ArrayUtil.h
+iostream
+-
+
+/home/good/Projects/c++/SortingAlgorithms.h
+ArrayUtil.h
+/home/good/Projects/c++/ArrayUtil.h
+iostream
+-
+
+/home/good/Projects/c++/main.cpp
+SortingAlgorithms.h
+/home/good/Projects/c++/SortingAlgorithms.h
+ArrayUtil.h
+/home/good/Projects/c++/ArrayUtil.h
+iostream
+-
+cstdlib
+-
+
